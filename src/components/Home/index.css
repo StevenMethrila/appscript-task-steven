@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    font-family: 'roboto';
+}
+
+.home-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.home-main-heading-container{
+    width: 721px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-main-heading1{
+    font-size: 35px;
+    color: #252020;
+}
+
+@media screen and (max-width: 576px){
+    .home-main-heading1{
+        font-size: 20px;
+    }
+}
+
+.home-main-heading2{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: center;
+    color: #252020;
+}
+
+@media screen and (max-width: 576px){
+    .home-main-heading2{
+        font-size: 9px;
+    }
+}
+
+.productCount-filter-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1248px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.countlist-hidebtn-container{
+    display: flex;
+    flex-direction: row;
+}
+.total-list-header{
+    font-size: 16px;
+    font-weight: bold;
+}
+.hide-image-arrow{
+    font-size: 10px;
+}
+.hide-btn{
+    margin-left: 10px;
+    margin-top: 3px;
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    color: #888792;
+    display: flex;
+    cursor: pointer;
+
+}
+.recommended-btn{
+    color: #252020;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+}
+.selected-filter-container{
+    color: #252020;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+    text-align: end;
+}
+.filter-product-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.filter-list-container{
+    width: 300px;
+    height: 1018px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.labelElement{
+    color: #252020;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.unorder-list-container{
+    list-style: none;
+}
+.product-list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0px 4px 5px 0px #bfbfbf;
+}
+.product-image{
+    width: 90%;
+    height: 300px;
+    margin: 20px;
+}
+.product-title{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+}
+.category-heading{
+    margin-top: 10px;
+}
+.rating-category-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.rating-heading{
+    font-size: 22px;
+    
+}
+.recommeded-style{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-like{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: red;
+}
+.filter-container-status{
+    width: 350px;
+}
+.screen-size-display{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .screen-size-display{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0px 4px 10px 0px #bfbfbf;
+    }
+    .horizontal-mark{
+        border: 1px solid #E5E5E5;
+        height: 100%;
+    }
+    .screen-size-select{
+        border: none;
+    }
+    .countlist-hidebtn-container{
+        display: none;
+    }
+    .hide-filter-container{
+        display: none;
+    }
+    .selected-recommended-filter-container{
+        display: none;
+    }
+    .filter-list-container{
+        display: none;
+    }
+    .product-list-container{
+        margin-top: 20px;
+    }
+    .filter-product-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-list-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .screen-size-filter{
+        font-weight: bold;
+    }
+}
